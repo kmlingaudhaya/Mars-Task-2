@@ -39,6 +39,32 @@ Here in this question I was asked to generate a random password in two different
 IFS stands for Internal Field Separator.By default, the value of IFS is set to a whitespace (space, tab, and newline) character. When a command or input string is processed, Bash splits the input into fields using IFS as the delimiter.
 <hr>
 
+## ROBOT QUESTION (2D MATRIX)
+
+    class RobotWorkspace:
+    def __init__(self, width, height, robot_position):
+        self.width = width
+        self.height = height
+        self.robot_position = robot_position
+        self.workspace = [[1 for _ in range(width)] for _ in range(height)]
+        
+In the above code, under class RobotWorkspace, There is a function which receives width, height and current position of the robot, and assigns accordingly
+
+    self.workspace = [[1 for _ in range(width)] for _ in range(height)]
+The above line creates a workspace by initiating all places in the matrix to 1.
+
+later using insert_obstacle function we specify the position where obstacle is to be inserted,
+     
+     def insert_obstacle(self, x, y):
+        self.workspace[x][y] = 0
+        
+later in the code, I have used else if conditions to fullfill the requirement of the question.
+And finally after each move, the code prints the updated workspace of the robot.
+
+Using while loop, the code prompts the user to command the robot by entering any one among the four command at a time.{up, down, left, right}
+
+<hr>
+
 ## PIXAL PERCENTAGE CALCULATOR
 
 To execute this, I have imported the matplotlib library.
