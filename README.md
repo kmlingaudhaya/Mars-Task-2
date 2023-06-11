@@ -69,7 +69,10 @@ Using while loop, the code prompts the user to command the robot by entering any
 
 To execute this, I have imported the matplotlib library.
 
-In the line height, width, _ = labrat.shape, the .shape attribute of the labrat matrix returns a tuple representing the shape or dimensions of the matrix. The tuple contains three values:
+In the line,
+
+    height, width, _ = labrat.shape
+the .shape attribute of the labrat matrix returns a tuple representing the shape or dimensions of the matrix. The tuple contains three values:
 
 height: This corresponds to the height of the image, representing the number of rows in the matrix.
 
@@ -79,7 +82,9 @@ The underscore _ is a conventional placeholder variable used to disregard the th
 
 r > threshold[0] and g > threshold[1] and b > threshold[2] , later we access each pixal using nested loop and compare them with the threshold values and assign their type accordingl in the list pixal types.
 
-typeA_percentage = (pixel_types.count('typeA') / total_pixels) * 100  - In this line we calculatee the percentage of pixal A in the image. And later we print the obtained value.
+    typeA_percentage = (pixel_types.count('typeA') / total_pixels) * 100
+
+- In this line we calculatee the percentage of pixal A in the image. And later we print the obtained value.
 <hr>
 
 ## BLACK AND WHITE
