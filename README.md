@@ -6,8 +6,9 @@
     1. Methode 1
     2. Methode 2
 4. Transposer
-5. Pixal Percentage Calculator
-6. Black and White
+5. Robot question.
+6. Pixal Percentage Calculator
+7. Black and White
 <hr>
 
 ## SEARCH MODIFY AND COPY
@@ -101,7 +102,15 @@ And finally we push the file to the remote directory using
  <hr>  
  
  ## SCREENSHOTS OF HOW I PUSHED MY FILES TO GITHUB USING TERMINAL COMMANDS
- 
+
+Creation of a local folder
+
 ![Screenshot from 2023-06-10 22-26-05](https://github.com/kmlingaudhaya/Mars-Task-2/assets/134930329/08f87076-a98f-45f5-9a36-761c844caaa3)
+
+Using the above mentioned git command to clone the repository locally to the folder that was created in above step.
+
 ![Screenshot from 2023-06-10 23-41-59](https://github.com/kmlingaudhaya/Mars-Task-2/assets/134930329/f001c866-f224-4391-89f0-ebf525b73d12)
+
+And using add, commit and push command we can push the files to github.
+
 ![Screenshot from 2023-06-10 23-42-54](https://github.com/kmlingaudhaya/Mars-Task-2/assets/134930329/d525e052-8062-4f05-9764-58a40e595055)
