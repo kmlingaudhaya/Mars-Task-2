@@ -69,3 +69,7 @@ typeA_percentage = (pixel_types.count('typeA') / total_pixels) * 100  - In this 
             
 And later using nested for loop, I iterate over each element and determine if the brightness level is more than my chosen level or not. If it is more, I change the pixal color to black, else change the pixal color to white.  
 <hr>
+
+## CLONING REPOSITORIES
+
+    git clone <paste the url of the required repository>
