@@ -73,3 +73,27 @@ And later using nested for loop, I iterate over each element and determine if th
 ## CLONING REPOSITORIES
 
     git clone <paste the url of the required repository>
+    
+## PUSHING INTO GITHUB USING TEERMINAL
+
+First we move the required file to the current working git directory. That can be done using
+    
+    mv question1.sh question2.sh question3.1.sh question3.2.sh question4.sh question5.sh question6.py question7.py <address of the local git directory where you want to move the file>
+    
+First navigate to the directory where your all files are present and then move the files from there. 
+
+### ADD COMMIT AND PUSH
+
+Next we use the command,
+    
+    git add *
+The git add command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit.   
+
+Next we commit the changes using 
+
+    git commit
+This prompts you to enter a commit message.
+
+And finally we push the file to the remote directory using 
+
+    git push
