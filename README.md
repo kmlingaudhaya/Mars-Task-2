@@ -100,6 +100,7 @@ And finally we push the file to the remote directory using
     
  <hr>   
  # Screenshots of how I pushed my files using terminal commands.
+ 
 ![Screenshot from 2023-06-10 22-26-05](https://github.com/kmlingaudhaya/Mars-Task-2/assets/134930329/08f87076-a98f-45f5-9a36-761c844caaa3)
 ![Screenshot from 2023-06-10 23-41-59](https://github.com/kmlingaudhaya/Mars-Task-2/assets/134930329/f001c866-f224-4391-89f0-ebf525b73d12)
 ![Screenshot from 2023-06-10 23-42-54](https://github.com/kmlingaudhaya/Mars-Task-2/assets/134930329/d525e052-8062-4f05-9764-58a40e595055)
